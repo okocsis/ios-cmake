@@ -221,6 +221,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Bogdan Cristea";
 				TargetAttributes = {
+					43840544186DB82E009CCB85 = {
+						DevelopmentTeam = 8C43KG9MX6;
+					};
 					43840568186DB82E009CCB85 = {
 						TestTargetID = 43840544186DB82E009CCB85;
 					};
@@ -231,6 +234,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -412,6 +416,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
+				DEVELOPMENT_TEAM = 8C43KG9MX6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hello-app/hello-app-Prefix.pch";
 				INFOPLIST_FILE = "hello-app/hello-app-Info.plist";
@@ -431,6 +436,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
+				DEVELOPMENT_TEAM = 8C43KG9MX6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hello-app/hello-app-Prefix.pch";
 				INFOPLIST_FILE = "hello-app/hello-app-Info.plist";
