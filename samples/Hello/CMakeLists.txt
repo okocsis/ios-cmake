@@ -31,12 +31,11 @@ target_compile_options(Hello PRIVATE -Werror)
 target_compile_features(Hello PRIVATE cxx_std_11)
 
 # Installation
-set(CMAKE_INSTALL_PREFIX "${Hello_SOURCE_DIR}/install")
-install(
-    TARGETS 
-        Hello 
-    LIBRARY
-        DESTINATION ${Hello_SOURCE_DIR}/fuck
+# set(CMAKE_INSTALL_PREFIX "${Hello_SOURCE_DIR}/install")
+install(TARGETS Hello 
+    EXPORT
+        HelloExport
+    LIBRARY DESTINATION ${Hello_SOURCE_DIR}/fuck
 )
 
 
