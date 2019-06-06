@@ -1,5 +1,5 @@
 
 target_sources(Hello
-	INTERFACE
+	PUBLIC
 		./HelloIOS.h
 )  
