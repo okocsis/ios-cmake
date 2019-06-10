@@ -18,6 +18,7 @@ add_library(Hello)
 # add_library(Hello::Hello ALIAS Hello)
 
 add_subdirectory(./src)
+add_subdirectory(./include)
 
 target_include_directories(Hello
     PUBLIC 
@@ -31,7 +32,10 @@ target_compile_options(Hello PRIVATE -Werror)
 target_compile_features(Hello PRIVATE cxx_std_11)
 
 # Installation
-install(TARGETS Hello)
+install(TARGETS Hello
+        LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+        PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+)
 
 
 # install(FILES HelloIOS.h DESTINATION .)
